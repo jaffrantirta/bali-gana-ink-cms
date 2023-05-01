@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "buttons",
+  "info": {
+    "singularName": "button",
+    "pluralName": "buttons",
+    "displayName": "Button",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "positions": {
+      "type": "enumeration",
+      "enum": [
+        "navbar",
+        "contact-us"
+      ]
+    }
+  }
+}

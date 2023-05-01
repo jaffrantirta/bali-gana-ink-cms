@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "captions",
+  "info": {
+    "singularName": "caption",
+    "pluralName": "captions",
+    "displayName": "Caption"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

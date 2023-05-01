@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "heroes",
+  "info": {
+    "singularName": "hero",
+    "pluralName": "heroes",
+    "displayName": "Hero",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "path": {
+      "type": "enumeration",
+      "enum": [
+        "/home",
+        "/galleries",
+        "/contact-us"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
